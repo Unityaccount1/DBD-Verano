@@ -13,7 +13,7 @@ public class RespuestaInicial {
         Class.forName("org.postgresql.Driver");
         Connection c = DriverManager.getConnection("jdbc:postgresql:1464", "usuario", "contraseña");
         Statement st = c.createStatement();
-        String C1 = "select aea from tabla where cadena='humo'";
+        String C1 = "select aea from table where cadena='humo'";
         ResultSet rs1 = st.executeQuery(C1);
         rs1.close();
         st.close();

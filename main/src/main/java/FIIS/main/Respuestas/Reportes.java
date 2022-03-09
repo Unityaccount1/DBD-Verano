@@ -4,4 +4,5 @@ package FIIS.main.Respuestas;
 //añadir o disminuir la cantidad de clausulas del contrato
 //Redirigir a la seccion del afiliador
 public class Reportes {
+
 }
